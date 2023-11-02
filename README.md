@@ -3,7 +3,8 @@
 Tests: Automated Verification of the Correctness of a Subgraph Construction Algorithm
 ======================================================================================
 
-We present the details of the tests we made:
+We present the details of the tests we made. 
+The tests are in the directory 
 
 Subdirectory Axioms: Files for the axiom system
 ------------------------------------------------
