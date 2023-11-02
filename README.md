@@ -9,17 +9,20 @@ Subdirectory Axioms: Files for the axiom system
 ------------------------------------------------
 - Basic properties of the axioms system
 - Relation to axiom system of Hilbert and Tarski
+
+Subdirectory IndependenceConsistence: 
+======================================
 - Independence of the axioms
 
 Verification of the correctness proof
 -------------------------------------
-<b> Subdirectory Proof:</b> Tests of the corectness proof
- - FILES
- - README
+- <b> Subdirectory Proof:</b> Tests of the corectness proof
+   - FILES
+   - README
 
-<b> Subdirectory Counterexamples:</b> Counterexamples in a modified axiom system
- - FILES
- - README
+- <b> Subdirectory Counterexamples:</b> Counterexamples in a modified axiom system
+   - FILES
+   - README
 
 Subdirectory Hilbert: 
 =====================
