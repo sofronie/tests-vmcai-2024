@@ -1,0 +1,1777 @@
+sat
+(model 
+  ;; universe for point:
+  ;;   point!val!6 point!val!4 point!val!2 point!val!0 point!val!1 point!val!3 point!val!5 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun point!val!6 () point)
+  (declare-fun point!val!4 () point)
+  (declare-fun point!val!2 () point)
+  (declare-fun point!val!0 () point)
+  (declare-fun point!val!1 () point)
+  (declare-fun point!val!3 () point)
+  (declare-fun point!val!5 () point)
+  ;; cardinality constraint:
+  (forall ((x point))
+          (or (= x point!val!6)
+              (= x point!val!4)
+              (= x point!val!2)
+              (= x point!val!0)
+              (= x point!val!1)
+              (= x point!val!3)
+              (= x point!val!5)))
+  ;; -----------
+  (define-fun I14 () Bool
+    true)
+  (define-fun F2 () Bool
+    true)
+  (define-fun u3 () point
+    point!val!4)
+  (define-fun D5 () Bool
+    true)
+  (define-fun D1 () Bool
+    true)
+  (define-fun D4 () Bool
+    true)
+  (define-fun v3 () point
+    point!val!6)
+  (define-fun A2 () Bool
+    true)
+  (define-fun C1 () Bool
+    true)
+  (define-fun I1 () Bool
+    true)
+  (define-fun D3 () Bool
+    true)
+  (define-fun D11 () Bool
+    true)
+  (define-fun I16 () Bool
+    true)
+  (define-fun u2 () point
+    point!val!0)
+  (define-fun D13 () Bool
+    true)
+  (define-fun I15 () Bool
+    true)
+  (define-fun v1 () point
+    point!val!3)
+  (define-fun I4 () Bool
+    true)
+  (define-fun F5 () Bool
+    true)
+  (define-fun T1 () Bool
+    true)
+  (define-fun I6 () Bool
+    true)
+  (define-fun E3 () Bool
+    true)
+  (define-fun I2 () Bool
+    true)
+  (define-fun I11 () Bool
+    true)
+  (define-fun D14 () Bool
+    true)
+  (define-fun Q2 () Bool
+    true)
+  (define-fun I13 () Bool
+    true)
+  (define-fun T3 () Bool
+    true)
+  (define-fun Q102 () Bool
+    true)
+  (define-fun I3 () Bool
+    true)
+  (define-fun A1 () Bool
+    true)
+  (define-fun v2 () point
+    point!val!5)
+  (define-fun A6 () Bool
+    true)
+  (define-fun T4 () Bool
+    true)
+  (define-fun u1 () point
+    point!val!2)
+  (define-fun F3 () Bool
+    true)
+  (define-fun D2 () Bool
+    true)
+  (define-fun T2 () Bool
+    true)
+  (define-fun E1 () Bool
+    true)
+  (define-fun A4 () Bool
+    true)
+  (define-fun R1 () Bool
+    true)
+  (define-fun I5 () Bool
+    true)
+  (define-fun I12 () Bool
+    true)
+  (define-fun E2 () Bool
+    true)
+  (define-fun F1 () Bool
+    true)
+  (define-fun F4 () Bool
+    true)
+  (define-fun Q101 () Bool
+    true)
+  (define-fun y () point
+    point!val!1)
+  (define-fun Q3 () Bool
+    true)
+  (define-fun Q1 () Bool
+    true)
+  (define-fun A5 () Bool
+    true)
+  (define-fun Q103 () Bool
+    true)
+  (define-fun D12 () Bool
+    true)
+  (define-fun A3 () Bool
+    true)
+  (define-fun k!2538 ((x!1 point)) point
+    (ite (= x!1 point!val!5) point!val!5
+    (ite (= x!1 point!val!2) point!val!2
+    (ite (= x!1 point!val!1) point!val!1
+    (ite (= x!1 point!val!0) point!val!0
+    (ite (= x!1 point!val!3) point!val!3
+    (ite (= x!1 point!val!4) point!val!4
+      point!val!6)))))))
+  (define-fun deleting!2544 ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!1)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!6)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+      false)))))))))))))
+  (define-fun deleting ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    (deleting!2544 (k!2538 x!1) (k!2538 x!2) (k!2538 x!3) (k!2538 x!4)))
+  (define-fun intersection!2540 ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!1)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!1)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!2)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!4)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!2)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!3)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!6)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!4)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!1)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!6)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!6)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!6)
+              (= x!3 point!val!2)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!6)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!5)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!6)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!1)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!1)
+              (= x!3 point!val!6)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!6)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!4)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!6)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!6)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!3)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!6)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!6)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!6)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!6)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!6)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!6)
+              (= x!3 point!val!4)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!4)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!6)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!6)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!3)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!6)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!6)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!6)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!0)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!6)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!6)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!5)
+              (= x!3 point!val!4)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!4)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!5)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!6)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!3)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!4)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!4)
+              (= x!3 point!val!6)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!4)
+              (= x!3 point!val!3)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!6)
+              (= x!3 point!val!3)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!6)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!1)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!4)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!6)
+              (= x!3 point!val!4)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!5)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!6)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!1)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!6)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!6)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!4)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!6)
+              (= x!3 point!val!0)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!0)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!6)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!6)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!1)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!6)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!1)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!6)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!6)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!1)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!1)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!6)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!2)
+              (= x!3 point!val!6)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!5)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!5)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!6)
+              (= x!3 point!val!1)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!2)
+              (= x!3 point!val!1)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!6)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!6)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!1)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!6)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!2)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!6)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!6)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!6)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!6)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!6)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!6)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!6)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!6)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!6)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!4)
+              (= x!4 point!val!3))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!1)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!6)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!0)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!6)
+              (= x!3 point!val!0)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!6)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!1)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!3)
+              (= x!3 point!val!1)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!0)
+              (= x!4 point!val!5))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!2)
+              (= x!3 point!val!5)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!6)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!4)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!5)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!5)
+              (= x!4 point!val!4))
+      true
+      false)))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+  (define-fun intersection ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    (intersection!2540 (k!2538 x!1) (k!2538 x!2) (k!2538 x!3) (k!2538 x!4)))
+  (define-fun left!2541 ((x!1 point) (x!2 point) (x!3 point)) Bool
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!2) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!3) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!0) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!1) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!0) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!5) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!4) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!1) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!4) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!6) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!2) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!2) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!1) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!2) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!4) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!1) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!1) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!1) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!0) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!0) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!4) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!4) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!1) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!0) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!1) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!3) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!4) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!4) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!2) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!5) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!3) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!2) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!1) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!5) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!5) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!1) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!5) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!4) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!0) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!4) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!6) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!6) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!1) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!2) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!5) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!4) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!3) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!6) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!0) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!4) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!3) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!4) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!2) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!4) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!6) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!6) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!5) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!3) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!4) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!0) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!4) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!4) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!3) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!5) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!2) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!0) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!4) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!5) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!2) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!3) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!2) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!5) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!2) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!6) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!5) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!4) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!3) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!4) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!2) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!4) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!5) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!5) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!6) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!0) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!3) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!3) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!3) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!0) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!3) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!3) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!6) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!5) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!0) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!2) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!3) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!6) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!3) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!2) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!0) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!1) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!0) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!1) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!1) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!2) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!2) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!1) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!6) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!6) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!5) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!5) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!3) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!5) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!6) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!0) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!1) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!1) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!2) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!1) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!5) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!6) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!2) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!6) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!3) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!6) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!6) (= x!3 point!val!4)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!6) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!2) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!1) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!5) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!3) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!1) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!6) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!3) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!1) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!4) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!6) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!5) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!2) (= x!3 point!val!3)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!3) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!5) (= x!3 point!val!6)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!6) (= x!3 point!val!5)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!6) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!4) (= x!3 point!val!5)) true
+      false))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+  (define-fun F!2542 ((x!1 point) (x!2 point)) Bool
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!6)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!4)) true
+      false)))
+  (define-fun inside!2539 ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!5)
+              (= x!3 point!val!0)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!5)
+              (= x!3 point!val!4)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!5)
+              (= x!3 point!val!6)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!4)
+              (= x!3 point!val!3)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!6)
+              (= x!3 point!val!3)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!4)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!4)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!4)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!2)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!3)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!3)
+              (= x!3 point!val!1)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!3)
+              (= x!3 point!val!1)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!6)
+              (= x!3 point!val!5)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!6)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!5)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!0)
+              (= x!3 point!val!5)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!0)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!5)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!1)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!6)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!2)
+              (= x!3 point!val!3)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!0)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!0)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!4)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!3)
+              (= x!2 point!val!5)
+              (= x!3 point!val!4)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!6))
+      true
+    (ite (and (= x!1 point!val!6)
+              (= x!2 point!val!5)
+              (= x!3 point!val!2)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!2)
+              (= x!3 point!val!3)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!2)
+              (= x!3 point!val!6)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!5)
+              (= x!2 point!val!2)
+              (= x!3 point!val!1)
+              (= x!4 point!val!4))
+      true
+    (ite (and (= x!1 point!val!4)
+              (= x!2 point!val!2)
+              (= x!3 point!val!3)
+              (= x!4 point!val!6))
+      true
+      false))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))))
+  (define-fun inside ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    (inside!2539 (k!2538 x!1) (k!2538 x!2) (k!2538 x!3) (k!2538 x!4)))
+  (define-fun V ((x!1 point)) Bool
+    true)
+  (define-fun E!2543 ((x!1 point) (x!2 point)) Bool
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!2)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!2)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!1)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!3)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!0)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!0)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!1)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!5)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!4)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!6)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!4)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!1)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!6)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0)) true
+    (ite (and (= x!1 point!val!3) (= x!2 point!val!2)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!4)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!0)) true
+    (ite (and (= x!1 point!val!4) (= x!2 point!val!2)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!4)) true
+    (ite (and (= x!1 point!val!5) (= x!2 point!val!2)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!0)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!6)) true
+    (ite (and (= x!1 point!val!6) (= x!2 point!val!2)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!5)) true
+      false)))))))))))))))))))))))))
+  (define-fun E ((x!1 point) (x!2 point)) Bool
+    (E!2543 (k!2538 x!1) (k!2538 x!2)))
+  (define-fun F ((x!1 point) (x!2 point)) Bool
+    (F!2542 (k!2538 x!1) (k!2538 x!2)))
+  (define-fun left ((x!1 point) (x!2 point) (x!3 point)) Bool
+    (left!2541 (k!2538 x!1) (k!2538 x!2) (k!2538 x!3)))
+)
+(:added-eqs                   737
+ :binary-propagations         47
+ :conflicts                   227
+ :decisions                   6499
+ :del-clause                  24414
+ :final-checks                38
+ :lazy-quant-instantiations   50011
+ :max-generation              11
+ :max-memory                  27.65
+ :memory                      24.22
+ :minimized-lits              55
+ :missed-quant-instantiations 3180
+ :mk-clause                   26375
+ :num-allocs                  778212778.00
+ :num-checks                  1
+ :propagations                13982
+ :quant-instantiations        38380
+ :restarts                    17
+ :rlimit-count                14164812
+ :time                        10.54
+ :total-time                  10.57)

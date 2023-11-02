@@ -1,0 +1,18 @@
+unsat
+(A1 A2 A3 Q32)
+(:added-eqs            2
+ :binary-propagations  42
+ :conflicts            2
+ :decisions            2
+ :del-clause           8
+ :max-generation       4
+ :max-memory           2.23
+ :memory               2.23
+ :mk-clause            9
+ :num-allocs           93934.00
+ :num-checks           1
+ :propagations         44
+ :quant-instantiations 14
+ :rlimit-count         384
+ :time                 0.00
+ :total-time           0.01)

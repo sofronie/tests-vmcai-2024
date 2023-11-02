@@ -1,0 +1,224 @@
+sat
+(model 
+  ;; universe for point:
+  ;;   point!val!2 point!val!0 point!val!1 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun point!val!2 () point)
+  (declare-fun point!val!0 () point)
+  (declare-fun point!val!1 () point)
+  ;; cardinality constraint:
+  (forall ((x point)) (or (= x point!val!2) (= x point!val!0) (= x point!val!1)))
+  ;; -----------
+  (define-fun I14 () Bool
+    true)
+  (define-fun F2 () Bool
+    true)
+  (define-fun D5 () Bool
+    true)
+  (define-fun D1 () Bool
+    true)
+  (define-fun D4 () Bool
+    true)
+  (define-fun A2 () Bool
+    true)
+  (define-fun C1 () Bool
+    true)
+  (define-fun I1 () Bool
+    true)
+  (define-fun D3 () Bool
+    true)
+  (define-fun D11 () Bool
+    true)
+  (define-fun D13 () Bool
+    true)
+  (define-fun I15 () Bool
+    true)
+  (define-fun I4 () Bool
+    true)
+  (define-fun F5 () Bool
+    true)
+  (define-fun T1 () Bool
+    true)
+  (define-fun I6 () Bool
+    true)
+  (define-fun E3 () Bool
+    true)
+  (define-fun I2 () Bool
+    true)
+  (define-fun b () point
+    point!val!0)
+  (define-fun I11 () Bool
+    true)
+  (define-fun D14 () Bool
+    true)
+  (define-fun Q4 () Bool
+    true)
+  (define-fun Q5 () Bool
+    true)
+  (define-fun Q2 () Bool
+    true)
+  (define-fun I13 () Bool
+    true)
+  (define-fun T3 () Bool
+    true)
+  (define-fun I3 () Bool
+    true)
+  (define-fun d () point
+    point!val!1)
+  (define-fun A1 () Bool
+    true)
+  (define-fun A6 () Bool
+    true)
+  (define-fun T4 () Bool
+    true)
+  (define-fun F3 () Bool
+    true)
+  (define-fun D2 () Bool
+    true)
+  (define-fun T2 () Bool
+    true)
+  (define-fun E1 () Bool
+    true)
+  (define-fun A4 () Bool
+    true)
+  (define-fun R1 () Bool
+    true)
+  (define-fun I5 () Bool
+    true)
+  (define-fun I12 () Bool
+    true)
+  (define-fun E2 () Bool
+    true)
+  (define-fun F1 () Bool
+    true)
+  (define-fun F4 () Bool
+    true)
+  (define-fun Q3 () Bool
+    true)
+  (define-fun Q1 () Bool
+    true)
+  (define-fun Q6 () Bool
+    true)
+  (define-fun A5 () Bool
+    true)
+  (define-fun a () point
+    point!val!2)
+  (define-fun D12 () Bool
+    true)
+  (define-fun c () point
+    point!val!2)
+  (define-fun A3 () Bool
+    true)
+  (define-fun k!603 ((x!1 point)) point
+    (ite (= x!1 point!val!2) point!val!2
+    (ite (= x!1 point!val!1) point!val!1
+      point!val!0)))
+  (define-fun left!605 ((x!1 point) (x!2 point) (x!3 point)) Bool
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!2) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!1) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!0) (= x!3 point!val!0)) true
+    (ite (and (= x!1 point!val!2) (= x!2 point!val!1) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!1) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!2) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!2) (= x!3 point!val!2)) true
+    (ite (and (= x!1 point!val!0) (= x!2 point!val!1) (= x!3 point!val!1)) true
+    (ite (and (= x!1 point!val!1) (= x!2 point!val!0) (= x!3 point!val!0)) true
+      false)))))))))))
+  (define-fun intersection!604 ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!2)
+              (= x!3 point!val!2)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!0)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!2)
+              (= x!3 point!val!2)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!0)
+              (= x!3 point!val!0)
+              (= x!4 point!val!1))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!0)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!2)
+              (= x!3 point!val!1)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!1)
+              (= x!3 point!val!2)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!1)
+              (= x!3 point!val!0)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!0)
+              (= x!2 point!val!2)
+              (= x!3 point!val!1)
+              (= x!4 point!val!2))
+      true
+    (ite (and (= x!1 point!val!2)
+              (= x!2 point!val!0)
+              (= x!3 point!val!1)
+              (= x!4 point!val!0))
+      true
+    (ite (and (= x!1 point!val!1)
+              (= x!2 point!val!0)
+              (= x!3 point!val!2)
+              (= x!4 point!val!0))
+      true
+      false)))))))))))))
+  (define-fun intersection ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    (intersection!604 (k!603 x!1) (k!603 x!2) (k!603 x!3) (k!603 x!4)))
+  (define-fun inside ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    false)
+  (define-fun left ((x!1 point) (x!2 point) (x!3 point)) Bool
+    (left!605 (k!603 x!1) (k!603 x!2) (k!603 x!3)))
+  (define-fun F ((x!1 point) (x!2 point)) Bool
+    false)
+  (define-fun E ((x!1 point) (x!2 point)) Bool
+    false)
+  (define-fun V ((x!1 point)) Bool
+    false)
+  (define-fun deleting ((x!1 point) (x!2 point) (x!3 point) (x!4 point)) Bool
+    false)
+)
+(:added-eqs            39
+ :binary-propagations  46
+ :conflicts            7
+ :decisions            147
+ :del-clause           66
+ :final-checks         5
+ :max-generation       3
+ :max-memory           3.25
+ :memory               3.25
+ :minimized-lits       1
+ :mk-clause            218
+ :num-allocs           317361.00
+ :num-checks           1
+ :propagations         135
+ :quant-instantiations 353
+ :restarts             4
+ :rlimit-count         75609
+ :time                 0.05
+ :total-time           0.06)
