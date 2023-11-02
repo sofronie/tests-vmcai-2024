@@ -4,16 +4,16 @@ Tests: Automated Verification of the Correctness of a Subgraph Construction Algo
 ======================================================================================
 
 We present the details of the tests we made. 
-The tests are in the directory 
+The tests are in the directory <b>CP-Algorithm-Verification</b>
+which contains the following subdirectories: 
 
-Subdirectory Axioms: Files for the axiom system
+Files for the axiom system/testing independence
 ------------------------------------------------
-- Basic properties of the axioms system
-- Relation to axiom system of Hilbert and Tarski
+- <b>Subdirectory Axioms:</b> Files for the axiom system
+   - Basic properties of the axioms system
+   - Relation to axiom system of Hilbert and Tarski
 
-Subdirectory IndependenceConsistence: 
-======================================
-- Independence of the axioms
+- <b>Subdirectort IndependenceConsistence:</b> Independence of the axioms
 
 Verification of the correctness proof
 -------------------------------------
@@ -25,7 +25,4 @@ Verification of the correctness proof
    - FILES
    - README
 
-Subdirectory Hilbert: 
-=====================
-Axioms of Hilbert for Order (2.1, 2.3, 2.4) are consequences of our axioms. 
 
