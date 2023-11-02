@@ -5,18 +5,18 @@ Tests: Automated Verification of the Correctness of a Subgraph Construction Algo
 
 We present the details of the tests we made:
 
-Files for the axiom system
---------------------------
+Subdirectory <font color=red>Axioms</font>: Files for the axiom system
+------------------------------------------------
 - Basic properties of the axioms system
 - Relation to axiom system of Hilbert and Tarski
 - Independence of the axioms
 
 Verification of the correctness proof
 -------------------------------------
-Tests of the corectness proof
+<b> Subdirectory <font color=red>Proof</font>:</b> Tests of the corectness proof
  - FILES
  - README
 
-Counterexamples in a modified axiom system
+<b> Subdirectory <font color=red>Counterexamples</font>:</b> Counterexamples in a modified axiom system
  - FILES
  - README
