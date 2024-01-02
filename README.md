@@ -35,7 +35,8 @@ Verification of the correctness proof
   (in <b>CP-Algorithm-Verification-Z3-4.4.1</b> and <b>CP-Algorithm-Verification-Z3-4.8.15</b> <br>
    we included more counterexamples, which are described in [2]).
 
-
+<p>
+<p>
 [1] Lucas Böltz, Viorica Sofronie-Stokkermans, Hannes Frey:
     On the Verification of the Correctness of a Subgraph Construction Algorithm. 
     In: Dimitrova, R., Lahav, O., Wolff, S. (eds) 
