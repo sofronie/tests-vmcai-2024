@@ -10,7 +10,8 @@ The tests were made using the SMT-solver Z3
   in the folder <b>CP-Algorithm-Verification</b>.  <p>
 - <b>then with Z3-4.4.1 and Z3-4.8.15 on a 12th Gen Intel(R) Core(TM) i5-12400 CPU @ max 5.6GHz, 18MiB cache.</b> <br>
   These tests are described in [2] (the extended version of the VMCAI 2024 paper) and are 
-  included in the folders <b>CP-Algorithm-Verification-Z3-4.4.1</b> and <b>CP-Algorithm-Verification-Z3-4.8.15</b>  
+  included <br>
+  in the folders <b>CP-Algorithm-Verification-Z3-4.4.1</b> and <b>CP-Algorithm-Verification-Z3-4.8.15</b>  
 
 The folders contains the following subdirectories: 
 
