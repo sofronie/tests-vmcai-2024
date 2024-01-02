@@ -1,0 +1,183 @@
+sat
+(
+  ;; universe for point:
+  ;;   point!val!0 
+  ;; -----------
+  ;; definitions for universe elements:
+  (declare-fun point!val!0 () point)
+  ;; cardinality constraint:
+  (forall ((x point)) (= x point!val!0))
+  ;; -----------
+  (define-fun A3 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v w) (left v u w) (left u x w)) (left u x v))))
+  (define-fun F2 () Bool
+    (forall ((u point) (v point)) (=> (F u v) (E u v))))
+  (define-fun D11 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (E u x) (deleting u v w x)) (F w x))))
+  (define-fun T2 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (inside u v w x) (left v w x))))
+  (define-fun I14 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v x) (left v u w) (left w x u) (left x w v))
+      (intersection u v w x))))
+  (define-fun D4 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (deleting u v w x) (E u w))))
+  (define-fun I15 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v x) (left v u w) (left w x v) (left x w u))
+      (or (= u w) (intersection u v w x)))))
+  (define-fun F4 () Bool
+    (forall ((u point) (v point) (w point))
+  (=> (and (left u v w) (left v u w) (V w)) (not (F u v)))))
+  (define-fun D14 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (intersection u v w x) (E u v) (F w x) (E u w) (E v w))
+      (deleting u v w x))))
+  (define-fun I13 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v w) (left v u x) (left w x v) (left x w u))
+      (intersection u v w x))))
+  (define-fun D13 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (E u v) (E w x) (intersection u v w x))
+      (or (deleting u v w x) (E u x) (E v x)))))
+  (define-fun D1 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (deleting u v w x) (E u v))))
+  (define-fun D3 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (deleting u v w x) (intersection u v w x))))
+  (define-fun T1 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (inside u v w x) (left u v x))))
+  (define-fun I1 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (intersection u v w x) (or (not (= u w)) (not (= v x))))))
+  (define-fun I2 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (intersection u v w x) (or (not (= u x)) (not (= v w))))))
+  (define-fun F1 () Bool
+    (forall ((u point) (v point)) (=> (F u v) (F v u))))
+  (define-fun E3 () Bool
+    (forall ((u point) (v point)) (=> (E u v) (V u))))
+  (define-fun I6 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (intersection u v w x) (or (left x w v) (left x w u)))))
+  (define-fun I11 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v w) (left v u x) (left w x u) (left x w v))
+      (or (= u x) (intersection u v w x)))))
+  (define-fun D5 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (deleting u v w x) (E v w))))
+  (define-fun T4 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v x) (left v w x) (left w u x)) (inside u v w x))))
+  (define-fun A6 () Bool
+    (forall ((u point) (v point) (w point) (x point) (y point) (z point))
+  (=> (and (left u v z)
+           (left v w z)
+           (left w u z)
+           (left x y u)
+           (left x y v)
+           (left x y w))
+      (left x y z))))
+  (define-fun A4 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v w) (left v u w) (left u x v)) (left u x w))))
+  (define-fun R1 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (E u v) (E w x) (intersection u v w x)) (or (E u w) (E v x)))))
+  (define-fun D2 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (deleting u v w x) (E w x))))
+  (define-fun F5 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (F u v) (E w x) (intersection u v w x)) (or (E u w) (E v w)))))
+  (define-fun I3 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (intersection u v w x) (or (left u v w) (left u v x)))))
+  (define-fun F3 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (F u v) (F w x)) (not (intersection u v w x)))))
+  (define-fun E2 () Bool
+    (forall ((u point) (v point)) (=> (E u v) (E v u))))
+  (define-fun I4 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (intersection u v w x) (or (left v u x) (left v u w)))))
+  (define-fun E1 () Bool
+    (forall ((u point)) (not (E u u))))
+  (define-fun A5 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v w) (left v w u) (left w u v))
+      (or (left u v x) (left v w x) (left w u x)))))
+  (define-fun C1 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (E u v) (E v w) (E w u) (V x) (inside u v w x)) (E u x))))
+  (define-fun A1 () Bool
+    (forall ((u point) (v point) (w point))
+  (=> (and (left u v w) (left v u w)) (not (left w u v)))))
+  (define-fun D12 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (E v x) (deleting u v w x)) (F w x))))
+  (define-fun T3 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (inside u v w x) (left w u x))))
+  (define-fun I16 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v x) (left v u w) (left w x v) (left x w u))
+      (or (= v x) (intersection u v w x)))))
+  (define-fun A2 () Bool
+    (forall ((u point) (v point) (w point))
+  (=> (and (not (= u w)) (not (= v w)) (not (left w u v)) (not (left w v u)))
+      (left u v w))))
+  (define-fun I12 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (and (left u v w) (left v u x) (left w x u) (left x w v))
+      (or (= v w) (intersection u v w x)))))
+  (define-fun I5 () Bool
+    (forall ((u point) (v point) (w point) (x point))
+  (=> (intersection u v w x) (or (left w x u) (left w x v)))))
+  (define-fun b () point
+    point!val!0)
+  (define-fun d () point
+    point!val!0)
+  (define-fun a () point
+    point!val!0)
+  (define-fun c () point
+    point!val!0)
+  (define-fun F ((x!0 point) (x!1 point)) Bool
+    false)
+  (define-fun E ((x!0 point) (x!1 point)) Bool
+    false)
+  (define-fun intersection ((x!0 point) (x!1 point) (x!2 point) (x!3 point)) Bool
+    false)
+  (define-fun V ((x!0 point)) Bool
+    false)
+  (define-fun left ((x!0 point) (x!1 point) (x!2 point)) Bool
+    false)
+  (define-fun deleting ((x!0 point) (x!1 point) (x!2 point) (x!3 point)) Bool
+    false)
+  (define-fun inside ((x!0 point) (x!1 point) (x!2 point) (x!3 point)) Bool
+    false)
+  (define-fun next ((x!0 point)) point
+    point!val!0)
+)
+(:added-eqs           1
+ :arith-make-feasible 1
+ :arith-max-columns   4
+ :binary-propagations 41
+ :final-checks        1
+ :max-memory          19.89
+ :memory              19.89
+ :mk-bool-var         83
+ :num-allocs          416682
+ :num-checks          1
+ :propagations        41
+ :rlimit-count        12603
+ :time                0.00
+ :total-time          0.01)
