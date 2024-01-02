@@ -29,7 +29,7 @@ Verification of the correctness proof
 
 - <b> Subdirectory Counterexamples:</b> Counterexamples in a modified axiom system
    - FILES
-   - README
+   - README <p>
   (in <b>CP-Algorithm-Verification-Z3-4.4.1</b> and <b>CP-Algorithm-Verification-Z3-4.8.15</b>
    we included more counterexamples, which are described also in the extended version of the paper).
 
