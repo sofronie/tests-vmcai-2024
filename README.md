@@ -32,8 +32,8 @@ Verification of the correctness proof
 - <b> Subdirectory Counterexamples:</b> Counterexamples in a modified axiom system
    - FILES
    - README <p>
-  (in <b>CP-Algorithm-Verification-Z3-4.4.1</b> and <b>CP-Algorithm-Verification-Z3-4.8.15</b>
-   we included more counterexamples, which are described also in the extended version of the paper).
+  (in <b>CP-Algorithm-Verification-Z3-4.4.1</b> and <b>CP-Algorithm-Verification-Z3-4.8.15</b> <br>
+   we included more counterexamples, which are described in [2]).
 
 
 [1] Lucas Böltz, Viorica Sofronie-Stokkermans, Hannes Frey:
