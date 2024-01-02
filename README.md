@@ -34,8 +34,13 @@ Verification of the correctness proof
    we included more counterexamples, which are described also in the extended version of the paper).
 
 
-[1] 
-
-[2] 	Lucas Böltz, Viorica Sofronie-Stokkermans, Hannes Frey:
-  On the Verification of the Correctness of a Subgraph Construction Algorithm. 
-  CoRR abs/2311.17860 (2023)
+[1] Lucas Böltz, Viorica Sofronie-Stokkermans, Hannes Frey:
+    On the Verification of the Correctness of a Subgraph Construction Algorithm. 
+    In: Dimitrova, R., Lahav, O., Wolff, S. (eds) 
+    Verification, Model Checking, and Abstract Interpretation. VMCAI 2024. 
+    Lecture Notes in Computer Science, vol 14499. Springer, Cham. 
+    https://doi.org/10.1007/978-3-031-50524-9_14
+    
+[2] Lucas Böltz, Viorica Sofronie-Stokkermans, Hannes Frey:
+    On the Verification of the Correctness of a Subgraph Construction Algorithm. 
+    CoRR abs/2311.17860 (2023)
